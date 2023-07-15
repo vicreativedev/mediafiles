@@ -18,6 +18,7 @@ class AudioFilesHelper(private val context: Context) : FilesHelper<AudioFile>() 
     }
 
     override fun getFiles(): List<AudioFile> {
+
         val audioFiles = ArrayList<AudioFile>()
         val projection = arrayOf(
             MediaStore.Audio.Media._ID,
