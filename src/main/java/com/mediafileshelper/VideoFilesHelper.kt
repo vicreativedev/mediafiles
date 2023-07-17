@@ -19,6 +19,9 @@ class VideoFilesHelper(private val context: Context) : FilesHelper<VideoFile>() 
 
     override fun getFiles(): List<VideoFile> {
         val videoFiles = ArrayList<VideoFile>()
+
+        //update test
+
         val projection = arrayOf(
             MediaStore.Video.Media._ID,
             MediaStore.Video.Media.DISPLAY_NAME,
